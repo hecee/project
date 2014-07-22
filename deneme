@@ -1,0 +1,18 @@
+package second;
+
+import java.lang.annotation.Annotation;
+
+public class Pizza implements Food
+{
+
+	public Class<? extends Annotation> annotationType() 
+	{
+		return null;
+	}
+
+	public double price()
+	{
+		return 22.5;
+	}
+
+}
